@@ -11,7 +11,6 @@
       And arama sonuclarinin Nutella icerdigini test eder
       And sayfayi kapatir
 
-
       Given  kullanici amazon anasayfaya gider
       Then  amazon arama kutusuna Java yazip aratir
       And arama sonuclarinin Java icerdigini test eder
