@@ -46,4 +46,11 @@ public class QualitydemyStepdefinitions {
 
         qualitydemyPage.accept.click();
     }
+
+    @And("basarili giris yapilamadigini test eder")
+    public void basariliGirisYapilamadiginiTestEder() {
+
+        Assert.assertTrue(qualitydemyPage.kullaniciEmailKutusu.isDisplayed());
+
+    }
 }
