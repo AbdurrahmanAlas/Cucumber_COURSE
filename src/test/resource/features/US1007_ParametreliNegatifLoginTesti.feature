@@ -1,5 +1,5 @@
 
-@wip
+
   Feature: Kullanici yanlis bilgilerle giris yapamaz
 
     Scenario: TC09 Gecerli kullanici adi ve gecersiz sifre ile Negatif Login Testi
