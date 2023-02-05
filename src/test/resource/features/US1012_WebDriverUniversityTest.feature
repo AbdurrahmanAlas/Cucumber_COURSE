@@ -1,4 +1,4 @@
-@wip
+
   Feature: US1012 Window Testi
 
 

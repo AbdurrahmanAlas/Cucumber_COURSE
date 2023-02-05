@@ -17,7 +17,6 @@ Feature: US1003  Kullanici parametre olarak girilen degerleri aratir
     And arama sonuclarinin "Java" icerdigini test eder
     And sayfayi kapatir
 
-
   Scenario: TC05 Kullanici Parametreli method ile Samsung aratir
     Given kullanici amazon anasayfaya gider
     Then amazon arama kutusuna "Samsung" yazip aratir

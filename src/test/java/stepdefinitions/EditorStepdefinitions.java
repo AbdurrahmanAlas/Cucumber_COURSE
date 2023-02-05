@@ -66,8 +66,8 @@ public class EditorStepdefinitions {
     @Then("isim bolumunde {string} oldugunu dogrular")
     public void isim_bolumunde_oldugunu_dogrular(String firstName) {
 
-        String actualIlkIsımStr=editorPage.ilkIsimElementi.getText();
-        Assert.assertTrue(actualIlkIsımStr.contains(firstName));
+        String actualIlkIsimStr=editorPage.ilkIsimElementi.getText();
+        Assert.assertTrue(actualIlkIsimStr.contains(firstName));
 
 
 
